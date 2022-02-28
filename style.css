@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  height: 85px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.left-side-menu {
+  display: flex;
+  gap: 50px;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  color: hsl(219, 9%, 45%);
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: hsl(26, 100%, 55%);
+}
+.right-side-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.avatar-icon img {
+  width: 40px;
+}
+.line {
+  height: 1px;
+  background-color: #ddd;
+  width: 90%;
+  align-self: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(99vh - 85px);
+  gap: 100px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.items {
+  align-self: flex-end;
+}
+.select-image {
+  max-width: 400px;
+}
+.select-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.thumbnails {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  gap: 10px;
+}
+.thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+}
+.right-side {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.right-side h6 {
+  color: hsl(26, 100%, 55%);
+  font-size: 20px;
+}
+.right-side p {
+  color: hsl(219, 9%, 45%);
+  font-size: 16px;
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.off {
+  font-size: 16px;
+  color: #ccc;
+}
+.options {
+  display: flex;
+  gap: 20px;
+}
+.amount {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: hsl(223, 64%, 98%);
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.amount span {
+  font-weight: 700;
+  font-size: 16px;
+}
+.minus,
+.plus {
+  cursor: pointer;
+}
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  color: #fff;
+  background-color: hsl(26, 100%, 55%);
+  padding: 18px 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
